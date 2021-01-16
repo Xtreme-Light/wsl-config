@@ -1,0 +1,4 @@
+ed 's/\(\(en\|em\|eth\)[^ ]* .*\)/\\\e[39m\1/' | \
+reless interfaces are purple \
+ed 's/\(wl[^ ]* .*\)/\\\e[35m\1/' | \
+
